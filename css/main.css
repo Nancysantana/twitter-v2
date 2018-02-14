@@ -1,0 +1,40 @@
+#bs-example-navbar-collapse-1 > ul > li> a:hover {
+  color: #dc00ff;
+}
+
+#bs-example-navbar-collapse-1 > ul > li:hover {
+  border-bottom: 1px solid #dc00ff;
+}
+#twitter {
+color: #1da1f2;
+margin-top: 1.5vh;
+}
+
+#search {
+  background-color:  #f5f8fa;
+  border: 1px solid #dc00ff;
+  border-radius: 13px;
+}
+
+#search:focus {
+  background-color: white;
+  border: 2px solid #dc00ff;
+  box-shadow: none;
+}
+
+
+.btwitt {
+  background-color: #dc00ff;
+  border-radius: 15px;
+  color: white;
+  font-weight: bolder;
+}
+
+.btwitt:hover {
+  background-color: #cc00ff;
+  color: white;
+}
+
+.bgnav{
+  background-color: white;
+}
