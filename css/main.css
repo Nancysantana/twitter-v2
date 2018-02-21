@@ -5,6 +5,31 @@
 #bs-example-navbar-collapse-1 > ul > li:hover {
   border-bottom: 1px solid #dc00ff;
 }
+
+#conteiner > div {
+  border-top: 1px solid #e6ecf0;
+}
+
+#textarea {
+  border-color: #dc00ff;
+  border-radius: 10px;
+  padding: 10px 15px 10px 8px;
+  resize: none; /*para que no cresca el tex textarea*/
+}
+
+#textarea:focus {
+  border: 2px solid #f4beea;
+  box-shadow: none;
+}
+
+#textarea::placeholder {
+  color: #dc00ff;
+}
+
+#textarea:focus::placeholder {
+  color:#f4beea;
+}
+
 #twitter {
 color: #1da1f2;
 margin-top: 1.5vh;
@@ -22,10 +47,18 @@ margin-top: 1.5vh;
   box-shadow: none;
 }
 
+.bg-gray {
+  background-color: #e6ecf0;
+}
+
+.bg-pink {
+  background-color: #e5ace1;
+}
 
 .btwitt {
   background-color: #dc00ff;
   border-radius: 15px;
+  border: none;
   color: white;
   font-weight: bolder;
 }
@@ -37,4 +70,24 @@ margin-top: 1.5vh;
 
 .bgnav{
   background-color: white;
+}
+
+.min-height {
+  min-height: 90vh;
+}
+
+.pb-pt {
+  padding: 2vh ;
+}
+
+.photo-rad {
+  border-radius: 50%;
+}
+
+.pr {
+  padding-right: 0;
+}
+
+.pl {
+  padding-left: 0;
 }
