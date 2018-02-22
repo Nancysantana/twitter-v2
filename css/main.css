@@ -10,6 +10,11 @@
   border-top: 1px solid #e6ecf0;
 }
 
+#counter {
+  background: transparent;
+  border: none;
+}
+
 #textarea {
   border-color: #dc00ff;
   border-radius: 10px;
@@ -74,6 +79,10 @@ margin-top: 1.5vh;
 
 .min-height {
   min-height: 92vh;
+}
+
+.m-t {
+  margin-top: 1vh;
 }
 
 .pb-pt {
